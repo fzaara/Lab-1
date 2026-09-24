@@ -1,1 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
 
+header{
+    padding: 20px;
+    margin-bottom: 24px;
+    text-align: center;
+    color: black;
+    border: 1px solid red;
+    background-color:lightblue;
+}
+
+main{
+    padding: 20px;
+    margin-bottom: 24px;
+    text-align: center;
+    background-color:cornflowerblue;
+
+}
+
+article{
+    background-color:aliceblue;
+    border:2px blue;
+    padding: 30px;
+    width: 100px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+
+}.cards-container article {
+  border: 1px solid #ccc; /* Optional: adds a border so you can see the box */
+  padding: px;       /* Optional: adds inner spacing */
+  width: 300px;
+}
+
+
+
+
+footer{
+    margin-top: 24px;
+    padding: 20px;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+/*for max width & height of image*/
+img{
+    max-width: 100%;
+}
+
+ul{
+    margin-left: 20px;
+}
+
+@media(min-width:768px){
+
+    header {
+
+        background-color:blue
+    }
+
+    article{
+        display:inline-block;
+        width: 30%;
+        vertical-align: top;
+        margin-right: 3%;
+
+    }
+
+    aside{
+        display:inline-block;
+        width: 50%;
+        vertical-align: top;
+    }
+    
+}
